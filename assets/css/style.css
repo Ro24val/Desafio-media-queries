@@ -1,0 +1,91 @@
+body{
+    margin: 0%;
+    padding: 0%;   
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+header{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    margin-left: 3vh;
+}
+
+.menu{
+    display: none;
+}
+
+#logo-menu{
+    margin-top: 3vh;
+    margin-right: 3vh;
+    font-size: 30px;
+}
+
+.filter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: beige;
+    margin-bottom: 3vh;     
+}
+
+.filter > p{
+    margin: 1%;
+}
+
+#select{
+    width: 280px;
+    margin-left: 7vh;
+    margin-top: 1%;
+    margin-bottom: 2%;    
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+.item-product{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    border: 0.5px solid lightslategray;
+}
+
+button{
+    margin-bottom: 2vh;
+}
+
+.item-product > img{
+ width: 100%;}
+
+ .button{
+    text-align: center;
+    align-content: center;
+ }
+
+ .paginator{
+    margin: 2vh;      
+ }
+
+footer{
+    background-color:blue;
+    text-align: center;
+    color: aliceblue;
+}
