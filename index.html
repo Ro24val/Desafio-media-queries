@@ -18,17 +18,17 @@
 
   <body>
     <div class="container">
-      <header>
+      <header id="nav">
         <nav class="nav">
           <h2>🛒 LiquiTodo</h2>
           <ul class="menu">
-            <li class="menu-item"><a href="#" class="menu-link">Inicio</a></li>
+            <li class="menu-item"><a href="#nav" class="menu-link">Inicio</a></li>
             <li class="menu-item">
-              <a href="#" class="menu-link">Componentes</a>
+              <a href="#filtro" class="menu-link">Componentes</a>
             </li>
-            <li class="menu-item"><a href="#" class="menu-link">Ofertas</a></li>
+            <li class="menu-item"><a href="#productos" class="menu-link">Ofertas</a></li>
             <li class="menu-item">
-              <a href="#" class="menu-link">Contacto</a>
+              <a href="#contacto" class="menu-link">Contacto</a>
             </li>
           </ul>
           <div class="logo">
@@ -37,7 +37,7 @@
         </nav>
       </header>
       <main>
-        <div class="filter">
+        <div id="filtro" class="filter">
           <p>Ordenar Por:</p>
           <select name="Ordenar por" id="select">
             <option value="">Precio</option>
@@ -45,7 +45,7 @@
           </select>
         </div>
 
-        <div class="products">
+        <div id="productos" class="products">
           <div class="item-product">
             <img src="./assets/imgs/abrigo.webp" alt="Abrigo" />
             <div class="product">
@@ -109,9 +109,19 @@
           </div>
         </div>
       </main>
-      <footer>
-        <p>© 2025 LiquiTodo 🔒</p>
+      <footer id="contacto">
+        <p style="margin: 0%">© 2025 LiquiTodo 🔒</p>
+        <p style="margin: 0%">✉ contacto@tuempresa.com | ☎ +123 456 7890</p>
+        <p style="margin: 0%">¡Haz clic aquí y conéctate con nosotros!</p>
+        <p style="margin: 0%">
+          <a style="color: black" href="#">[📷 Instagram]</a
+          ><a style="color: black" href="#">[📘 Facebook]</a>
+        </p>
       </footer>
     </div>
+    <script
+      src="https://kit.fontawesome.com/0cebebfcb1.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
